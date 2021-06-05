@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+a {
+    color: #FE8F28;
+}
+
+/* 入会申し込み　トップ */
+.join-top {
+    padding-top: 60px;
+    background-image: url("../img/building_5.jpg");
+    background-position: center;
+    background-size: 100%;
+}
+.join-top-text {
+    padding:10% 7% 10% 0;
+    width: 50%;
+}
+.join-top-text h3 {
+    padding: 1% 0;
+}
+.join-top-text p {
+    padding: 1% 0;
+}
+
+
+/* 入会申し込み */
+.join-main {
+    padding: 5% 0 30% 0;
+}

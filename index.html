@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="沖縄国際大学産業情報学部産学協力会では教育・研究活動を側面より 支援すると共に産学官の連携事業並びに学術研究などを推進し沖縄県の 産業振興並びに地域振興に寄与することを目的として活動しています。">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/component-style.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <title>沖縄国際大学 産業情報学部 産学協力会</title>
+</head>
+<body>
+    <div id="app">
+        <!-- メニュー -->
+        <navigation></navigation>
+    
+        
+        <!-- トップ -->
+        <div class="container">
+            <div class="row top-visual">
+                <h1>沖縄国際大学<br>産業情報学部 産学協力会</h1>
+                <p>Okinawa International University <br>
+                    Faculty of Industry and Information Science Industry-academia collaboration</p>
+            </div>
+        
+        
+
+        <!-- 産学協力会の取り組み -->
+        
+            <div class="row initiatives">
+                <div class="initiatives-text">
+                    <h3>産学協力会の取り組み</h3>
+                    <p>沖縄国際大学産業情報学部産学協力会では教育・研究活動を側面より支援すると共に産学官の連携事業並びに学術研究などを
+                        推進し沖縄県の産業振興並びに地域振興に寄与することを目的として活動しています。</p>
+                </div>
+            </div>
+        
+        
+        <!-- 産学協力会について -->
+        
+            <div class="row about">
+                <div class="about-text">
+                    <h3>産学協力会について</h3>
+                    <p>産学の連携事業並びに学術交流等を推進し， 沖縄県の産業振興並びに地域振興に寄与することを目的とした組織です</p>
+                    <btn pass='about.html' title="> 詳細"></btn>
+                </div>
+        
+                    
+                
+                <div class="about-img">
+                    <img src="img/building_5_3.png" alt="5号館・3号館">
+                </div>
+            </div>
+        
+
+        
+        <!-- 活動報告 -->
+        
+            <div class="row activity_report">
+                <h2>活動報告</h2>
+                <div class="activity_report-list">
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="list-img1"></div>
+                            <h4>活動計画</h4>
+                            <p>産学協力会での活動計画の詳細はこちら</p>
+                            <a href="about.html#plan">もっと見る</a>
+                        </div>
+                        <div class="col-sm">
+                            <div class="list-img2"></div>
+                            <h4>活動報告</h4>
+                            <p>年度ごとの活動報告と詳細はこちら</p>
+                            <a href="about.html#report">もっと見る</a>
+                        </div>
+                        <div class="col-sm">
+                            <div class="list-img3"></div>
+                            <h4>後援・協賛等</h4>
+                            <p>後援と協賛についての詳細はこちら</p>
+                            <a href="about.html#lecture">もっと見る</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- イベント・更新　横ならべ -->
+        <div class="container etc">
+            <div class="row">
+                <!-- 更新情報 -->
+                <div class="col-sm update">
+                    <h2>更新情報</h2>   
+                    <ul>
+                        <li><span class="date">{{update[0].date}}</span>{{update[0].details}}</li>
+                        <li><span class="date">{{update[1].date}}</span>{{update[1].details}}</li>
+                        <li><span class="date">{{update[2].date}}</span>{{update[2].details}}</li>
+                        <li><span class="date">{{update[3].date}}</span>{{update[3].details}}</li>
+                    </ul>
+                    
+                    <a href="pages/update/update.html">過去の更新情報</a>
+
+                </div>
+
+                <!-- イベント情報 -->
+                <div class="col-sm events">
+                    <h2>イベント情報</h2>   
+                    <ul>
+                        <li><span class="date">{{events[0].date}}</span>{{events[0].details}}</li>
+                        <li><span class="date">{{events[1].date}}</span>{{events[1].details}}</li>
+                        <li><span class="date">{{events[2].date}}</span>{{events[2].details}}</li>
+                        <li><span class="date">{{events[3].date}}</span>{{events[3].details}}</li>
+                    </ul>
+                    
+                    <a href="pages/events/events.html">過去のイベント情報</a>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- フッター -->
+        <ft-text classname='footer-pink'></ft-text>
+
+    </div>
+
+
+</body>
+</html>
+
+
+<!-- Vue -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+
+<!-- Axios -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"
+        integrity="sha256-T/f7Sju1ZfNNfBh7skWn0idlCBcI3RwdLSS4/I7NQKQ=" crossorigin="anonymous"></script>
+
+<script src="js/component.js"></script>
+<script src="js/main.js"></script>
