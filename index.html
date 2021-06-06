@@ -17,7 +17,10 @@
 <body>
     <div id="app">
         <!-- メニュー -->
-        <navigation></navigation>
+        <div class="pc"><navigation></navigation></div>
+
+        <div class="sp"><navimb></navimb></div>
+        
     
         
         <!-- トップ -->
@@ -27,11 +30,11 @@
                 <p>Okinawa International University <br>
                     Faculty of Industry and Information Science Industry-academia collaboration</p>
             </div>
+        </div>
         
         
-
         <!-- 産学協力会の取り組み -->
-        
+        <div class="container">
             <div class="row initiatives">
                 <div class="initiatives-text">
                     <h3>産学協力会の取り組み</h3>
@@ -39,29 +42,38 @@
                         推進し沖縄県の産業振興並びに地域振興に寄与することを目的として活動しています。</p>
                 </div>
             </div>
-        
+        </div>
         
         <!-- 産学協力会について -->
-        
+        <div class="container">
             <div class="row about">
+                
+                <!-- スマホ用画像 -->
+                <div class="sp about-img">
+                    <img src="img/building_5_3.png" alt="5号館・3号館">
+                </div>
+
                 <div class="about-text">
                     <h3>産学協力会について</h3>
                     <p>産学の連携事業並びに学術交流等を推進し， 沖縄県の産業振興並びに地域振興に寄与することを目的とした組織です</p>
                     <btn pass='about.html' title="> 詳細"></btn>
                 </div>
-        
-                    
-                
-                <div class="about-img">
+
+                <!-- PC用画像 -->
+                <div class="pc about-img">
                     <img src="img/building_5_3.png" alt="5号館・3号館">
                 </div>
+        
             </div>
+        </div> 
+
+           
         
 
         
         <!-- 活動報告 -->
-        
-            <div class="row activity_report">
+        <div class="container">
+            <div class="activity_report">
                 <h2>活動報告</h2>
                 <div class="activity_report-list">
                     <div class="row">

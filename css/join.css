@@ -21,7 +21,17 @@ a {
 .join-top-text p {
     padding: 1% 0;
 }
+/* 入会申し込みトップ　スマホ */
+@media screen and (max-width:769px) {
 
+    .join-top {
+        background-position: top;
+    }
+    .join-top-text {
+        width: 100%;
+    }
+
+}
 
 /* 入会申し込み */
 .join-main {

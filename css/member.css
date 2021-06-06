@@ -22,6 +22,17 @@ a {
 .member-top-text p {
     padding: 1% 0;
 }
+/* 会員名簿トップ　スマホ */
+@media screen and (max-width:769px) {
+
+    .member-top {
+        background-position: top;
+    }
+    .member-top-text {
+        width: 100%;
+    }
+
+}
 
 
 /* 理事・役員・事務局 */

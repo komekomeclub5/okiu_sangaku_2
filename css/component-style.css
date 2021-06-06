@@ -4,6 +4,7 @@
 .header {
     position: absolute;
     width: 100%;
+    padding-top: 5px;
 }
 .header-nav {
     height: 60px;
@@ -55,3 +56,106 @@
     border-radius: 10px;
     text-decoration: none;
   }
+
+
+
+/* レスポンシブ */
+
+/* パソコンで見たときは"pc"のclassがついた画像が表示される */
+.pc { display: block !important; }
+.sp { display: none !important; }
+ 
+/* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
+@media only screen and (max-width: 769px) {
+    .pc { display: none !important; }
+    .sp { display: block !important; }
+}
+
+
+/* humburger*/
+/*ボタン*/
+.hamburger_btn {
+    position: fixed; /*常に最上部に表示したいので固定*/
+    top: 0;
+    right: 0;
+    width: 70px;
+    height: 72px;
+    cursor: pointer;
+    z-index: 100;
+  }
+  
+  .hamburger_btn .line {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 32px;
+    height: 2px;
+    background: #333333;
+    text-align: center;
+  }
+  
+  .hamburger_btn .line_01 {
+    top: 16px;
+    transition: 0.4s ease;
+  }
+  .hamburger_btn .line_02 {
+    top: 26px;
+    transition: 0.4s ease;
+  }
+  .hamburger_btn .line_03 {
+    top: 36px;
+    transition: 0.4s ease;
+  }
+  
+  
+  .btn_line01 {
+    transform: translateY(10px) rotate(-45deg);
+    transition: 0.4s ease;
+  }
+  .btn_line02 {
+    transition: 0.4s ease;
+    opacity: 0;
+  }
+  .btn_line03 {
+    transform: translateY(-10px) rotate(45deg);
+    transition: 0.4s ease;
+  }
+  
+  /*サイドバー*/
+  .menu-enter-active, .menu-leave-active {
+    transition: opacity 0.4s;
+  }
+  .menu-enter, .menu-leave-to {
+    opacity: 0;
+  }
+  .menu-leave, .menu-enter-to{
+    opacity: 1;
+  }
+  
+  .menu li {
+    list-style: none;
+    line-height: 1;
+    padding: 1rem;
+  }
+  .menu {
+    background-color: rgba(254, 143, 40, 0.95);
+    z-index: 30;
+    padding: 2rem 1rem;
+    position: fixed;
+    width: 100%;
+    height: 80rem;
+    top: 0;
+    right: 0;
+  }
+  .menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0 2rem;
+  }
+  .menu ul{
+    margin: 1rem;
+    padding: 0;
+  }
+  

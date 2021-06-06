@@ -1,6 +1,8 @@
 new Vue({
     el: '#app',
-
+    props: {
+      ActiveBtn: false,
+    },
     data: {
       update: [],
       events: [],

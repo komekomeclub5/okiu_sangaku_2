@@ -26,6 +26,18 @@ a {
     padding: 5% 0;
 }
 
+/* トップ　スマホ */
+@media screen and (max-width:769px) {
+
+    .etc-top {
+        background-position: top;
+    }
+    .etc-top-text {
+        width: 100%;
+    }
+
+}
+
 
 
 .list ul{

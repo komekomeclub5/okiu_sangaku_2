@@ -22,6 +22,18 @@ a {
 .constitution-top-text p {
     padding: 1% 0;
 }
+/* 会則トップ　スマホ */
+@media screen and (max-width:769px) {
+
+    .constitution-top {
+        background-position: top;
+    }
+    .constitution-top-text {
+        width: 100%;
+    }
+
+}
+
 
 
 /* 会則 */

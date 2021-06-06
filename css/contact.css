@@ -5,7 +5,7 @@ a {
 }
 
 
-/* 会則　トップ */
+/* お問い合わせ　トップ */
 .contact-top {
     padding-top: 60px;
     background-image: url("../img/building_5.jpg");
@@ -21,6 +21,17 @@ a {
 }
 .contact-top-text p {
     padding: 1% 0;
+}
+/* お問い合わせトップ　スマホ */
+@media screen and (max-width:769px) {
+
+    .contact-top {
+        background-position: top;
+    }
+    .contact-top-text {
+        width: 100%;
+    }
+
 }
 
 

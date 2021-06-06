@@ -15,7 +15,6 @@ a {
     border-radius: 20px;
 }
 .about-img {
-    float: right;
     padding:5% 0 5% 15%;
     width: 50%;
 }
@@ -25,7 +24,6 @@ a {
     height: auto;
 }
 .about-text {
-    float: left;
     padding:10% 0;
     width: 50%;
 }
@@ -35,7 +33,20 @@ a {
 .about-text p {
     padding: 1% 0;
 }
+/* 産学協力会について　スマホ */
+@media screen and (max-width:769px) {
 
+    .about-img {
+        width: 80%;
+        margin: 1% auto;
+        padding:5%;
+    }
+    .about-text {
+        width: 100%;
+        padding: 5%;
+    }
+
+}
 
 /* 主な事業 */
 .business {
@@ -64,7 +75,7 @@ a {
 }
 .merit-box img {
     width: auto;
-    height: 250px;
+    height: 20vh;
 }
 
 
