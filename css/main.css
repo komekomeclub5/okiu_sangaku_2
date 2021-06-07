@@ -41,10 +41,8 @@ a {
         padding-top: 60px;
     }
     .initiatives {
-        background-image: url("/img/building_5.jpg");
         background-position: top;
-        background-size: 100%;
-        border-radius: 20px;
+        margin: 1px 1px 5% 1px;
     }
     .initiatives-text {
         padding:10% 7% 30% 7%;
@@ -85,6 +83,9 @@ a {
 /* 産学協力会について　スマホ */
 @media screen and (max-width:769px) {
 
+    .about {
+        margin: 1px 1px 5% 1px;
+    }
     .about-img {
         width: 80%;
         margin: 1% auto;
