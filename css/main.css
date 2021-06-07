@@ -42,7 +42,7 @@ a {
     }
     .initiatives {
         background-position: top;
-        margin: 1px 1px 5% 1px;
+        margin: 5% 1px;
     }
     .initiatives-text {
         padding:10% 7% 30% 7%;
@@ -84,7 +84,7 @@ a {
 @media screen and (max-width:769px) {
 
     .about {
-        margin: 1px 1px 5% 1px;
+        margin: 5% 1px;
     }
     .about-img {
         width: 80%;
@@ -133,6 +133,9 @@ a {
 /* 活動報告　画像　スマホ */
 @media screen and (max-width:769px) {
 
+    .activity_report {
+        margin: 10% 0;
+    }
     .list-img1 {
         height: 230px;
     }
@@ -152,23 +155,34 @@ a {
     margin-top: 5%;
 }
 
+@media screen and (max-width:769px) {
+    .events {
+        margin: 10% 0;
+    }
+}
+
 /* 更新名簿 */
 .update {
     margin-top: 5%;
 }
 
+@media screen and (max-width:769px) {
+    .update {
+        margin: 10% 0;
+    }
+}
+
 /* イベント・更新のリスト */
 /* リストを追加 */
 .etc {
-    margin-top: 5%;
     margin-bottom: 5%;
 }
 
 .etc ul{
-    margin:10%;
+    margin:5%;
     padding:0;
     line-height:1.8;
-    width:80%;
+    width:90%;
     list-style:none;
 }
 .etc ul li{

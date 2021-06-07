@@ -73,6 +73,9 @@ a {
 .merit-box {
     text-align: center;
 }
+.merit-box p {
+    font-size: 20px;
+}
 .merit-box img {
     width: auto;
     height: 20vh;

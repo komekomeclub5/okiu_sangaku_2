@@ -3,7 +3,7 @@ Vue.component('navigation', {
         <div class="header">
             <div class="container header-nav"> 
                 <div class="row">
-                    <div class="col header-nav-title">
+                    <div class="col-md-4 header-nav-title">
                         <img src="/img/okiulogo.png">
                         <a href="/index.html">沖縄国際大学 産業情報学部 産学協力会</a>
                     </div>
