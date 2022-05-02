@@ -1,44 +1,26 @@
 @charset "utf-8";
 
-a {
-    color: #FE8F28;
-}
+a { color: #FE8F28; }
 
-/*トップ */
-.etc-top {
+/* トップ・産学協力会について　以外のページトップ */
+.page-top {
     padding-top: 60px;
     background-image: url("../img/building_5.jpg");
     background-position: center;
     background-size: 100%;
 }
-.etc-top-text {
-    padding:10% 7% 10% 0;
-    width: 50%;
-}
-.etc-top-text h3 {
-    padding: 1% 0;
-}
-.etc-top-text p {
-    padding: 1% 0;
-}
+.page-top-text { padding:10% 7% 10% 0; width: 50%; }
+.page-top-text h3 { padding: 1% 0; }
+.page-top-text p { padding: 1% 0; }
 
-.etc-main {
-    padding: 5% 0;
-}
-
-/* トップ　スマホ */
+/* ページトップ　スマホ */
 @media screen and (max-width:769px) {
-
-    .etc-top {
-        background-position: top;
-    }
-    .etc-top-text {
-        width: 100%;
-    }
-
+    .page-top { background-position: top; }
+    .page-top-text { width: 100%; }
 }
 
-
+/* 更新情報・イベント情報・活動報告ページ */
+.etc-main { padding: 5% 0; }
 
 .list ul{
     margin:10%;

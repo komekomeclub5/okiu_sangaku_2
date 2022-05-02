@@ -1,120 +1,47 @@
 @charset "utf-8";
 
-a {
-    color: #FE8F28;
-}
+a { color: #FE8F28; }
 
 /* 産学協力会について  トップ*/
-.about-top {
-    padding-top: 60px;
-    background-color: #FFAF8E;
-}
+.about-top { padding-top: 60px; background-color: #FFAF8E; }
+.about { background-color: #FFAF8E; border-radius: 20px; }
 
-.about {
-    background-color: #FFAF8E;
-    border-radius: 20px;
-}
-.about-img {
-    padding:5% 0 5% 15%;
-    width: 50%;
-}
-.about-img img {
-    padding: auto;
-    width: 100%;
-    height: auto;
-}
-.about-text {
-    padding:10% 0;
-    width: 50%;
-}
-.about-text h3 {
-    padding: 1% 0;
-}
-.about-text p {
-    padding: 1% 0;
-}
+.about-img { padding:5% 0 5% 15%; width: 50%; }
+.about-img img { padding: auto; width: 100%; height: auto; }
+
+.about-text { padding:10% 0; width: 50%; }
+.about-text h3 { padding: 1% 0; }
+.about-text p { padding: 1% 0; }
+
 /* 産学協力会について　スマホ */
 @media screen and (max-width:769px) {
-
-    .about-img {
-        width: 80%;
-        margin: 1% auto;
-        padding:5%;
-    }
-    .about-text {
-        width: 100%;
-        padding: 5%;
-    }
-
+    .about-img { width: 80%; margin: 1% auto; padding:5%; }
+    .about-text { width: 100%; padding: 5%; }
 }
 
 /* 主な事業 */
-.business {
-    padding-top: 5%;
-}
-.business img {
-    width: 100%;
-}
-.business-project-text {
-    margin: auto 0;
-}
-.business-events-text {
-    margin: auto 0;
-}
-.business-meet-text {
-    margin: auto 0;
-}
-
+.business { padding-top: 5%; }
+.business-text { margin: auto 0; }
 
 /* 会員企業のメリット */
-.merit {
-    padding-top: 5%;
-}
-.merit-box {
-    text-align: center;
-}
-.merit-box p {
-    font-size: 20px;
-}
-.merit-box img {
-    width: auto;
-    height: 20vh;
-}
-
+.merit { padding-top: 5%; }
+.merit-box { text-align: center; }
+.merit-box p { font-size: 20px; }
+.merit-box img { width: auto; height: 20vh; }
 
 /* 活動計画 */
-.plan {
-    padding-top: 5%;
-}
-.plan-img img {
-    width: 100%;
-}
-.plan-text {
-    margin: auto 0;
-}
+.plan { padding-top: 5%; }
+.plan-img img { width: 100%; }
+.plan-text { margin: auto 0; }
 
 /* 活動報告 */
-.report {
-    padding-top: 5%;
-}
-.report p{
-    margin: 10px;
-    text-align: right;
-}
-.report-text {
-    display:inline;
-    padding: 2%;
-}
+.report { padding-top: 5%; }
+.report p { margin: 10px; text-align: right; }
+.report-text { display:inline; padding: 2%; }
 
 /* 講演・協賛等 */
-.lecture {
-    padding-top: 5%;
-}
-.lecture-bold {
-    color: #FE8F28;
-}
+.lecture { padding-top: 5%; }
+.lecture-bold { color: #FE8F28; }
 
 /* 会長挨拶 */
-.greeting {
-    padding: 5% 0;
-}
+.greeting { padding: 5% 0; }
