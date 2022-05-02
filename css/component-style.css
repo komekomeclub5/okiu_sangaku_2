@@ -1,53 +1,23 @@
 @charset "utf-8";
 
 /* ヘッダー　コンポーネント */
-.header {
-    position: absolute;
-    width: 100%;
-    padding-top: 5px;
-}
-.header-nav {
-    height: 60px;
-}
-.header-nav img {
-    padding: 5px;
-    width: auto;
-    height: 50px;
-}
+.header { position: absolute; width: 100%; padding-top: 5px; }
 
-.header-nav a {
-    color: black;
-    text-decoration: none;
-}
+.header-nav { height: 60px; }
+.header-nav img { padding: 5px; width: auto; height: 50px; }
+.header-nav a { color: black; text-decoration: none; }
 
-.header-nav-title {
-    margin: auto 0;
-}
+.header-nav-title { margin: auto 0; }
 
-.header-nav-menu {
-    margin: auto 0;
-    text-align: right;
-}
-.header-nav-menu a {
-    padding: 0 10px;
-}
+.header-nav-menu { margin: auto 0; text-align: right; }
+.header-nav-menu a { padding: 0 10px; }
 
 /* フッター　コンポーネント */
-.footer-pink {
-    padding: 3% 0;
-    background-color: #FFAF8E;
-}
-
-.footer-blue {
-    padding: 3% 0;
-    background-color: #ABD3EC;
-}
+.footer-pink { padding: 3% 0; background-color: #FFAF8E; }
+.footer-blue { padding: 3% 0; background-color: #ABD3EC; }
 
 /* ボタン */
-* {
-    box-sizing: border-box;
-  }
-  
+* { box-sizing: border-box; }
 .bt-comp a {
     color: #fff;
     background: #000;
@@ -56,8 +26,6 @@
     border-radius: 10px;
     text-decoration: none;
   }
-
-
 
 /* レスポンシブ */
 
@@ -94,19 +62,9 @@
     text-align: center;
   }
   
-  .hamburger_btn .line_01 {
-    top: 16px;
-    transition: 0.4s ease;
-  }
-  .hamburger_btn .line_02 {
-    top: 26px;
-    transition: 0.4s ease;
-  }
-  .hamburger_btn .line_03 {
-    top: 36px;
-    transition: 0.4s ease;
-  }
-  
+  .hamburger_btn .line_01 { top: 16px; transition: 0.4s ease; }
+  .hamburger_btn .line_02 { top: 26px; transition: 0.4s ease; }
+  .hamburger_btn .line_03 { top: 36px; transition: 0.4s ease; }
   
   .btn_line01 {
     transform: translateY(10px) rotate(-45deg);
@@ -122,21 +80,11 @@
   }
   
   /*サイドバー*/
-  .menu-enter-active, .menu-leave-active {
-    transition: opacity 0.4s;
-  }
-  .menu-enter, .menu-leave-to {
-    opacity: 0;
-  }
-  .menu-leave, .menu-enter-to{
-    opacity: 1;
-  }
+  .menu-enter-active, .menu-leave-active { transition: opacity 0.4s; }
+  .menu-enter, .menu-leave-to { opacity: 0; }
+  .menu-leave, .menu-enter-to{ opacity: 1; }
   
-  .menu li {
-    list-style: none;
-    line-height: 1;
-    padding: 1rem;
-  }
+  .menu li { list-style: none; line-height: 1; padding: 1rem; }
   .menu {
     background-color: rgba(254, 143, 40, 0.95);
     z-index: 30;
@@ -154,8 +102,5 @@
     font-weight: 500;
     padding: 0 2rem;
   }
-  .menu ul{
-    margin: 1rem;
-    padding: 0;
-  }
+  .menu ul{ margin: 1rem; padding: 0; }
   

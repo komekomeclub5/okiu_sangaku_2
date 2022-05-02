@@ -68,5 +68,4 @@ Vue.component('btn', {
           <a :href="pass">{{title}}</a>
       </div>
     `
-                
 })
