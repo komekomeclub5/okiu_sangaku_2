@@ -2,6 +2,13 @@
 
 a { color: #FE8F28; }
 
+.container {
+    min-width: 60%;
+    width: calc((64em - 100%) * 1000);
+    max-width: 90%;
+    /* Change 25em to your breakpoint. */
+}
+
 /* 産学協力会について  トップ*/
 .about-top { padding-top: 60px; background-color: #FFAF8E; }
 .about { background-color: #FFAF8E; border-radius: 20px; }
