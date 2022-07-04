@@ -2,8 +2,15 @@
 
 a { color: #FE8F28; }
 
+.container {
+    min-width: 60%;
+    width: calc((64em - 100%) * 1000);
+    max-width: 90%;
+    /* Change 25em to your breakpoint. */
+}
+
 /* トップ */
-.top-visual { padding: 10% 0; }
+.top-visual { padding: 7em 0 10% 0; }
 .top-visual p { color: #FE8F28; }
 
 /* 産学協力会の取り組み */
@@ -19,7 +26,7 @@ a { color: #FE8F28; }
 
 /* 産学協力会の取り組み　スマホ */
 @media screen and (max-width:767px) {
-    .top-visual { padding-top: 60px; }
+    /*.top-visual { padding-top: 60px; } */
     .initiatives { background-position: top; margin: 5% 1px; }
     .initiatives-text { padding:10% 7% 30% 7%; width: 100%; }
 }

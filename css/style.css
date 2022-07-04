@@ -2,6 +2,13 @@
 
 a { color: #FE8F28; }
 
+.container {
+    min-width: 60%;
+    width: calc((64em - 100%) * 1000);
+    max-width: 90%;
+    /* Change 25em to your breakpoint. */
+}
+
 /* トップ・産学協力会について　以外のページトップ */
 .page-top {
     padding-top: 60px;
